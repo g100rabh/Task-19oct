@@ -6,4 +6,5 @@
   <li>CSS</li>
   <li>Context API</li>
   <li>React Route</li>
+  <li>Rest API</li>
 </ul>
