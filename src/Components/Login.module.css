@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;400&family=Playfair+Display:ital@1&family=Poppins:wght@100;400&family=Rajdhani:wght@300&family=Roboto+Condensed:ital@1&family=Urbanist:wght@300;500&display=swap");
+.loginCon {
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -10%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header > * {
+  margin: 0;
+}
+
+.header h2 {
+  color: var(--Dark, #1e232c);
+  font-size: 26px;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.26px;
+}
+.header p {
+  color: var(--Gray, #8391a1);
+  font-family: Urbanist;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.logForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 25vh;
+}
+
+.logForm input {
+  width: 310px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #dadada;
+  background: #f7f8f9;
+  padding: 1rem;
+  color: #8391a1;
+  font-family: "Urbanist";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.logForm button {
+  width: 340px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff6d6a;
+
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

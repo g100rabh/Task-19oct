@@ -1,0 +1,32 @@
+.resCard {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 340px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 14px;
+}
+
+.resCard img {
+  width: 122px;
+  height: 118px;
+  border-radius: 14px;
+}
+
+.textCon {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: -15%;
+}
+
+.textCon section{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.textCon span > * {
+    margin: 0;
+}
